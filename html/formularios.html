@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link href="../css/style_one.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1 id="cabecera">Formularios en HTML</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>Mi primera página</li>
+			<li>Tablas</li>
+			<li>Enlaces</li>
+			<li>Listas</li>
+			<li>Video</li>
+			<li>Audio</li>
+		</ul>
+	</nav>
+	<main id="main">
+		<section>
+			<h2>Formulario básico</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ipsum.</p>
+			<form action="actionpage.html" method="get" target="_self" autocomplete="off">
+			<label>Nombre</label>
+			<input type="text">
+			<label>Apellidos</label>
+			<input type="text">
+			<input type="submit" value="Enviar">
+			</form>
+			
+		</section>
+		<section>
+			<h2>Formulario con listas despegables</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eius.</p>
+			<form action="actionpage.html" method="">
+			<label>Nombre</label>
+			<input type="text">
+			<label for="Pais">País</label>
+			<select name="Pais" id="Pais" size="">
+				<option value="Mx">México</option>
+				<option value="Es">España</option>
+				<option value="co">Colombia</option>
+				<option value="Ar">Argentina</option>
+				</select>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Formulario basico</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, sunt.</p>
+			<form action="actionpage.html" method="get">
+			<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="">Nombre</label></td>
+      <td><input type="text" id="nombre" name="nombre"></td>
+    </tr>
+    <tr>
+      <td><label for="correo">Correo electronico</label></td>
+      <td><input type="email" id="correo" name="correo"></td>
+    </tr>
+    <tr>
+      <td><label for="mensaje">Mensaje</label></td>
+      <td><textarea name="mensaje" id="" cols="20" rows="5">Escribe aquí tu mensaje</textarea></td>
+    </tr>
+    <tr>
+      <td><input type="submit" value="Enviar"></td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+				</form>
+		</section>
+		<section>
+			<h2>Formulario utilizando varios tipos de input</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, dolorum.</p>
+			<form action="actionpage.html" method="get">
+			<label for="name">Nombre</label>
+			<input type="text" id="nombre"><br>
+			<br>
+			<br>
+			<label for="nacimiento">Fecha de nacimiento</label>
+			<input type="date" id="nacimiento" name="nacimiento"><br>
+			<br>
+			<br>
+			<label for="genero">Genero</label>
+			<input type="radio" id="genero" name="genero">
+				<label>Femenino</label>
+			<input type="radio" id="genero" name="genero"><label>Masculino</label><br>
+			<br>
+			<br>
+			<label for="musica">Elige de la lista los generos que más te gusten</label>
+			<input type="checkbox" id="musica" name="musica"><label>Pop</label>
+			<input type="checkbox" id="musica" name="musica" value="Rock"><label>Rock</label>
+			<input type="checkbox" id="musica" name="musica"><label>Jazz</label>
+			<input type="checkbox" id="musica" name="musica"><label>Alternativa</label>
+			<input type="checkbox" id="musica" name="musica"><label>Blues</label>
+			<br>
+			<br>
+			<br>
+			<input type="submit" value="Enviar">
+			
+			
+			
+			
+			</form>
+		</section>
+		<section>
+			<h2>Formulario actividad</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ipsum.</p>
+			<form action="actionpage.html" method="get" target="_self" autocomplete="off">
+			<label>Nombre</label>
+			<input type="text">
+			<label>Apellidos</label>
+			<input type="text">
+			<label for="tel">Tel:</label>
+            <input type="tel" name="tel" id="tel">
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color">
+            <label for="fileField">File:</label>
+            <input type="file" name="fileField" id="fileField">
+            <label for="datetime-local">DateTime-Local:</label>
+            <input type="datetime-local" name="datetime-local" id="datetime-local">
+            <input type="reset" name="reset" id="reset" value="Restablecer">
+<input type="submit" value="Enviar">
+			</form>
+			
+		</section>
+	</main>
+	<footer id="footer">
+		<h5>Elaborado por Juan José Romero</h5>
+	</footer>
+</body>
+</html>

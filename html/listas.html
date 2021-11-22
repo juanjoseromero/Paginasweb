@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Listas</title>
+	<style type="text/css">
+		header,main,nav,footer{
+			margin: 0px auto;
+			padding: 15px;
+			}
+		header{
+			background-color: #B86933;
+			color: #FFFFFF;
+			height: 50px 15px;
+			text-align: center;
+			}
+		nav{
+			height: 50px;
+			background-color: #f8e265
+				;
+		}
+		main{
+			background-color: #89a380;
+			margin: auto;
+			padding: auto;
+			
+		}
+		section{
+			width: 760px;
+			background-color: #f8e265;
+			margin: 35px auto;
+			padding: inherit;
+			
+		}
+		h2{
+			text-align: center;
+			
+		}
+		ul{
+			
+		}
+		ol{
+			background-color: aliceblue;
+			margin: 15px 15px;
+			padding: 35px;
+			
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1></header>
+	<nav></nav>
+	<main>
+		<section>
+			<h2>Lista ordenada: Revision de errorres cometidos en la redaccion</h2>
+			<ol>
+				<li>Organizacion</li>
+				<li>Exactitud de transcripciones</li>
+				<li>Cuestiones gramaticales</li>
+				<li>Formatos</li>
+				
+			</ol>
+		</section>
+		<section>
+			<h2>Lista desordenada: Lista del super</h2>
+			<ul>
+			<li>Pasta de dientes</li>
+			<li>Shampoo</li>
+			<li>Jabon de tocador</li>
+			<li>Sopas</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista mixta: Geografica</h2>
+			<ul>
+				<li>Argentina</li>
+					<ul>
+					<li>Buenos Aires</li>
+					<li>Rio de Plata</li>
+					<li>Belgrano</li>
+					</ul>
+				<li>España</li>
+					<ul>
+					<li>Málaga</li>
+					<li>Valencia</li>
+					<li>Castilla la vieja</li>
+					</ul>
+				<li>Mexico
+					<ul>
+					<li>Aguascalientes</li>
+					<li>Baja California Sur</li>
+					<li>Colima</li>
+					<li>Durango</li>
+					<li>Puebla</li>
+					</ul>
+				</li>
+				<li>Costa Rica</li>
+				<li>Dinamarca</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista de descripcion</h2>
+			<dl>
+				<dt>Usabilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptas praesentium dolorum quos dignissimos placeat aperiam culpa vero, quam sequi!</dd>
+				<dt>Accesibilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, earum fugit enim tempora culpa, dolorem ab sint quos quaerat quam soluta ullam, possimus magni dolorum.</dd>
+				<dt>Servidor web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto pariatur sunt, repellat impedit numquam beatae, excepturi distinctio, quam commodi suscipit possimus quasi soluta officiis similique, nobis temporibus ipsum tempora non.</dd>
+				<dt>Hosting</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sunt nobis, ipsa earum facere magnam pariatur libero sapiente. Sit, explicabo?</dd>
+				<dt>Dominio</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptatibus aliquam provident accusamus molestias, illo reiciendis. Quos aut sunt quis doloremque dicta animi asperiores commodi.</dd>
+		
+			</dl>
+		</section>
+		<section>
+		<h2>Uso de atributo <b>type</b> para definir viñeta de lista en HTML</h2>
+		<h3>Alfabetico: A,a</h3>
+		<ol type="a">
+			<li>Brenda Degollado</li>
+			<li>Alfonso Juarez</li>
+			<li>Juan Romero</li>
+		</ol>
+		<h3>Romanos: I, i</h3>
+		<ol type="I">
+			<li>Brenda Degollado</li>
+			<li>Alfonso Juarez</li>
+			<li>Juan Romero</li>
+		</ol>
+		<h3>Figura: circle, square, disc</h3>
+		<ul type="square">
+			<li>Brenda Degollado</li>
+			<li>Alfonso Juarez</li>
+			<li>Juan Romero</li>
+		</ul>
+		</section>
+		<section>
+			<h2> Uso de la propiedad list-style de CSS</h2>
+			<h3>Uso de la propiedad <strong>list-style-type</strong> de CSS para cambiar viñetas</h3>
+			<ul style="list-style-type:armenian">
+			<li>Cafe</li>
+			<li>Leche</li>
+			<li>Pan</li>
+			<li>Atun</li>
+			<li>Frijoles</li></ul>
+			<h3>Uso de la propiedad list-style-image de css para cambiar la viñeta por imagen personalizada</h3>
+			<ul style="list-style-image: url('../images/dom.png');">
+				<li>Delfin</li>
+				<li>Morsa</li>
+				<li>Ballena</li>
+			</ul>
+			<h3>Eliminar viñetas de lista</h3>
+			<ul style="list-style-type: none">
+				<li>Gato</li>
+				<li>Leon</li>
+				<li>Tigre</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por Juan Jose Romero Jimenez</h5>
+	</footer>
+	
+</body>
+</html>
